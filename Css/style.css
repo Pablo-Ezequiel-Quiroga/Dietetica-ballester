@@ -1,0 +1,86 @@
+/* COLORES
+#206A5D VERDE OSCURO
+rgb(156, 255, 46) VERDE CLARO
+#BFDCAE VERDE AGUA */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 62.5%;
+}
+
+h2{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 4rem;
+
+    }
+h2{
+        font-size: 3rem;
+        text-decoration: underline;
+    }
+ /*estilos header*/
+header{
+       background-color: rgb(156, 255, 46) ;
+}
+
+header img{
+    width: 222px ;
+}
+nav{
+    color: white;   
+    background-color: #206A5D;
+    font-size: 2rem;
+}
+header ul{
+    list-style: none;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+/*main index*/
+
+main img{
+    width: 444px;
+}
+
+/*banner*/
+
+.banner{
+    background-image: url(../Medios/banner.jpg);
+    background-size: cover;
+    height: 250px;
+    color: rgb(28, 192, 28) ;
+    text-shadow: 3px 2px 16px rgba(0,0,0,1);
+    text-align: center;
+}
+
+body{
+    background-color: #BFDCAE;
+}
+
+p{
+   font-size: 2.5rem;
+}
+/*footer*/ 
+
+footer{
+    font-size: 25px;
+    list-style: none;
+    background-color: #206A5D;
+}
+
+footer ul{
+    list-style: none;
+}

@@ -192,6 +192,9 @@ footer ul{
     font-weight: 700;
 }
 
+.botones{
+    width: 25%;
+}
 /*mediaQ*/
 
 @media only screen and (max-width: 480px) {
@@ -223,5 +226,9 @@ footer ul{
  
     .grid-img-3{
         display: none;
+    }
+    .carousel-inner{
+        width: 100%;
+        margin: 20%;
     }
 }

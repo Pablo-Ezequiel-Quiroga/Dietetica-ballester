@@ -115,6 +115,11 @@ body{
 p{
    font-size: 2.5rem;
 }
+
+.map{
+    width: 50px;
+}
+
 /*footer*/ 
 
 footer{
@@ -243,5 +248,8 @@ footer ul{
     }
     .imgsgral{
         width: 50%;
+    }
+    .map{
+        width: 30px;
     }
 }

@@ -195,6 +195,14 @@ footer ul{
 .botones{
     width: 25%;
 }
+.form-control{
+    width: 44%;
+    font-size: 2rem;
+}
+.form-label{
+    font-size: 2rem;
+}
+
 /*mediaQ*/
 
 @media only screen and (max-width: 480px) {

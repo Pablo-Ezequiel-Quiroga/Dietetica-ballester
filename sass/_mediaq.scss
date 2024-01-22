@@ -1,4 +1,5 @@
 @media only screen and (max-width: 480px) {
+
     header {
         flex-direction: column;
         align-items: center;
@@ -86,4 +87,15 @@ $mobile-breakpoint: 576px;
 
 .grid-texto-3 {
   grid-area: texto3;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.imgsgral {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }

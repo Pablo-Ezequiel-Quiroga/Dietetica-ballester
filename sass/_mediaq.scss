@@ -1,29 +1,19 @@
-@media only screen and (max-width: 480px) {
-
-    header {
-        flex-direction: column;
-        align-items: center;
-    
-        nav {
-          margin-top: 10px;
-    
-          ul {
-            flex-direction: column;
-    
-            li {
-              margin-right: 0;
-              margin-bottom: 10px;
+@media only screen and (max-width: 576px) {
+  p{
+    padding: 11px;
+  }
+   header {
+    flex-direction: column;
+    align-items: flex-start;
+        nav{
+            width: 100%; 
+            a{
+              font-size: 15px;
             }
-          }
-        }
       }
-    }
-@mixin mobile {
-    @media screen and (max-width: 576px) {
-        @content;
-    }
+      }
 }
-$mobile-breakpoint: 576px;
+
 
 .contenedor-grid {
   display: grid;
@@ -52,7 +42,7 @@ $mobile-breakpoint: 576px;
     
   }
 
-  @media screen and (max-width: $mobile-breakpoint) {
+  @media screen and (max-width: 576px) {
     grid-template-areas: 
       "mostrador1"
       "mostrador2"
@@ -99,3 +89,16 @@ img {
   height: 100%;
   border-radius: 5px;
 }
+
+/*header{
+ / nav{
+    @media only screen and (max-width: 576px) {
+      width: 100%; 
+      margin-left: auto; 
+      padding: 5px;
+    
+}
+}
+}*/
+
+

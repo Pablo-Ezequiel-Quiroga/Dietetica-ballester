@@ -48,16 +48,30 @@
     grid-area: texto2;
 }
 .grid-img-2{
+    
     grid-area: mostrador3;
 }
 .grid-texto-3{
+
     grid-area: texto3;
 }
 
 .contenedor-grid p{
+    
     text-align: justify;
     margin: 0 25px;
     color: black
-    
-   
 }
+
+.carousel-control-prev {
+    z-index: 0;
+}
+
+.carousel-control-next{
+    z-index: 0;
+}
+
+.carousel-indicators{
+    z-index: 0;
+}
+             

@@ -101,6 +101,9 @@ main h3 {
   text-decoration: underline;
   padding: 30px;
 }
+main p {
+  padding: 7px;
+}
 
 .mail .form-control {
   width: 35%;
@@ -149,8 +152,6 @@ main h3 {
 
 .grid-img-1 {
   grid-area: mostrador1;
-  grid-column: 1/2;
-  grid-row: 1/3;
 }
 
 .grid-texto-1 {

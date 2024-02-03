@@ -12,14 +12,26 @@ $verde-agua: #BFDCAE;
     box-sizing: border-box;
 }
 
-html{
+   html{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 62.5%;
+
     .map{
-        width: 50px;
+        width: 100%; // Ajusta el ancho según tus necesidades
+        height: 400px; // Ajusta la altura según tus necesidades
+        position: relative;
+        margin: 0 auto; // Esto centra horizontalmente el contenedor
+        text-align: center; // Esto centra el contenido interno (como el mapa) horizontalmente
+      
+        // Si deseas centrar verticalmente el mapa también
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 }
 body{
+
     background-color: $verde-agua;
     font-size: 2.5rem;
     
@@ -86,8 +98,7 @@ main{
     }
     img{
         width: 444px;
-        
-    }
+ }
  section{
     margin-bottom: 20px;
  }
@@ -97,24 +108,32 @@ main{
         font-size: 4rem;
         text-align: center;
         z-index: 2;
+        
     }
     h2{
         font-size: 3rem;
         text-decoration: underline;
+        text-align: center;
         padding: 30px;
+        margin: 20px;
     }
-    .imgsgral{  
+   
+   .imgsgral{  
         width: 50%;
         display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 20px 0px;
         padding: 10px;
-    } 
+    }
     h3{
         font-size: 3rem;
         text-decoration: underline;
+        text-align: center;
         padding: 30px;
     }  
     p{
+        text-align: center;
         padding: 7px;
     }
 }
@@ -138,5 +157,37 @@ main{
     input:focus{
         border: $verde-oscuro 4px dotted;
     }
-    }
-    
+ }
+
+
+/*imagenes*/
+
+ .moto {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
+      }
+
+.telefono {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;     
+}      
+
+.sintacc {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
+        width: 50%;
+}
+
+.nutricion {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
+        width: 50%;
+}

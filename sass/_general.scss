@@ -129,6 +129,22 @@ main{
         padding: 7px;
     }
 }
+/*imagenes*/
+.nutricion {
+    width: 50%;
+   }
+
+.sintacc {
+    width: 80%;
+   }
+
+.telefono {
+    max-width: 80%;
+  }
+
+.moto {
+    max-width: 80%;
+  }
 
 .mail{
     .form-control{
@@ -150,6 +166,13 @@ main{
         border: $verde-oscuro 4px dotted;
     }
  }
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: block;  
+
+}
 
  form {
     display: flex;

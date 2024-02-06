@@ -11,7 +11,23 @@
               font-size: 15px;
             }
       }
-      }
+   }
+   
+   .moto {
+    max-width: 80%;
+  }
+  
+  .telefono {
+    max-width: 80%;
+  }
+  
+  .sintacc {
+    width: 80%;
+   }
+  
+   .nutricion {
+    width: 80%;
+   }
 }
 
 .contenedor-grid {
@@ -37,11 +53,8 @@
   p {
     text-align: justify;
     margin: 0 15px; 
-    color: black;
-    
+    color: black; 
   }
-
-
 
   @media screen and (max-width: 1000px) {
     grid-template-areas: 
@@ -57,36 +70,7 @@
  
 }
 
-.grid-img-1 {
-  grid-area: mostrador1;
-}
-
-.grid-texto-1 {
-  grid-area: texto1;
-}
-
-.grid-img-3 {
-  grid-area: mostrador2;
-}
-
-.grid-texto-2 {
-  grid-area: texto2;
-}
-
-.grid-img-2 {
-  grid-area: mostrador3;
-}
-
-.grid-texto-3 {
-  grid-area: texto3;
-}
-
 img {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-}
-.imgsgral {
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -95,23 +79,12 @@ img {
 .botones {
   width: 50%;
 }
-/*imagenes*/
 
-.moto {
-  max-width: 100%;
-}
 
-.telefono {
-  max-width: 100%;
-}
 
-.carousel {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  display: block;  
 
-}
+
+
 
 
 

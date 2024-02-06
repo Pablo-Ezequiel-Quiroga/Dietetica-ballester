@@ -110,6 +110,23 @@ main p {
   padding: 7px;
 }
 
+/*imagenes*/
+.nutricion {
+  width: 50%;
+}
+
+.sintacc {
+  width: 80%;
+}
+
+.telefono {
+  max-width: 80%;
+}
+
+.moto {
+  max-width: 80%;
+}
+
 .mail .form-control {
   width: 100%;
   font-size: 2rem;
@@ -127,6 +144,13 @@ main p {
 }
 .mail input:focus {
   border: #206A5D 4px dotted;
+}
+
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: block;
 }
 
 form {
@@ -304,6 +328,18 @@ footer h4 .nutricion {
   header nav a {
     font-size: 15px;
   }
+  .moto {
+    max-width: 80%;
+  }
+  .telefono {
+    max-width: 80%;
+  }
+  .sintacc {
+    width: 80%;
+  }
+  .nutricion {
+    width: 80%;
+  }
 }
 .contenedor-grid {
   display: grid;
@@ -335,37 +371,7 @@ footer h4 .nutricion {
   }
 }
 
-.grid-img-1 {
-  grid-area: mostrador1;
-}
-
-.grid-texto-1 {
-  grid-area: texto1;
-}
-
-.grid-img-3 {
-  grid-area: mostrador2;
-}
-
-.grid-texto-2 {
-  grid-area: texto2;
-}
-
-.grid-img-2 {
-  grid-area: mostrador3;
-}
-
-.grid-texto-3 {
-  grid-area: texto3;
-}
-
 img {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-}
-
-.imgsgral {
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -373,20 +379,4 @@ img {
 
 .botones {
   width: 50%;
-}
-
-/*imagenes*/
-.moto {
-  max-width: 100%;
-}
-
-.telefono {
-  max-width: 100%;
-}
-
-.carousel {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  display: block;
 }/*# sourceMappingURL=estilos.css.map */
